@@ -1,19 +1,15 @@
 ## Notes about creating a conda environment to run the notebooks
 Run the following commands in terminal:
 
-`conda create -n gnn_py9 python=3.9>> conda activate gnn_py9`
-
-`pip install torch torchvision torchaudio`
-
-`pip install --verbose --no-cache-dir torch-scatter`
-
-`pip install --verbose --no-cache-dir torch-sparse`
-
-`pip install --verbose --no-cache-dir torch-cluster`
-
-`pip install torch-geometric`
-
-`conda activate gnn_py9`
+```
+conda create -n gnn_py9 python=3.9>> conda activate gnn_py9
+pip install torch torchvision torchaudio
+pip install --verbose --no-cache-dir torch-scatter
+pip install --verbose --no-cache-dir torch-sparse
+pip install --verbose --no-cache-dir torch-cluster
+pip install torch-geometric
+conda activate gnn_py9
+```
 
 
 
