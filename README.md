@@ -1,7 +1,6 @@
 # Graph-NNs
-Hello and welcome! 
 
-Reading the first five chapters of [Graph Representation Learning by William L. Hamilton](https://www.cs.mcgill.ca/~wlh/grl_book/) is highly recommended to get comfortable with graph theory and various implementations of graph neural networks before you dive into code. The book provides intution, mathematical proofs, and explanations important to understanding why GNNs work, and and why/how different architectures impact model performance.
+"Graphs are a ubiquitous data structures and a universal language for describing complex systems, such as social networks, interactions between atoms, and interactions between drugs and proteins." [- William L. Hamilton](https://www.cs.mcgill.ca/~wlh/grl_book/)
 
 In this repo, practical tutorials of PyTorch Geometric (aka PyG) are covered. These tutorials are adapted from [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/get_started/colabs.html) examples, and expanded to include additional explorations. 
 
@@ -21,6 +20,8 @@ Specifically, this repo includes examples of increasing GNN architecture complex
     - Dataset: [MUTAG](https://paperswithcode.com/dataset/mutag) dataset represents chemical compounds, specifically mutagenic and non-mutagenic molecules. The graphs in the dataset describe the structure of these chemical compounds, with nodes representing atoms and edges representing chemical bonds.
   
 Visualizing embeddings is utilized in all notebooks to assess how well the GNN representation resembles the community-structure of the graph(s).
+
+Finally, reading the first five chapters of [Graph Representation Learning by William L. Hamilton](https://www.cs.mcgill.ca/~wlh/grl_book/) is highly recommended to get comfortable with graph theory and graph neural networks lingo before you dive into code. The book provides intution, mathematical proofs, and explanations important to understanding why GNNs work, and and why/how different architectures impact model performance.
 
 
 ## References:
