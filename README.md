@@ -1,6 +1,6 @@
 # Graph-NNs
 
-Graphs are a ubiquitous data structures and a universal language for describing complex systems, such as social networks, interactions between atoms, and interactions between drugs and proteins.
+Graphs are a ubiquitous data structure and a universal framework for modeling complex systems, such as social networks, atomic interactions, and drug-protein interactions.
 
 In this repo, practical tutorials of PyTorch Geometric (aka PyG) are covered. These tutorials are adapted from [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/get_started/colabs.html) examples, and expanded to include additional explorations. 
 
